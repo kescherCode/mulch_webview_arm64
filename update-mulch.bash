@@ -12,9 +12,9 @@ target_dir="/home/kescher/kescherCloud/Shared/Mulch Webview Magisk module/arm64"
 mkdir -p "${apk_dir}" "${lib_dir}" "${lib64_dir}" || exit 1
 wget -c "https://gitlab.com/divested-mobile/mulch/-/raw/master/prebuilt/arm64/webview.apk?inline=false" -O "${module_dir}/system/app/webview/webview.apk" || exit 1
 pids=()
-unzip -od "${lib_dir}" "${apk_path}" "lib/armeabi-v7a/libwebviewchromium.so" >/dev/null &
+unzip -ojd "${lib_dir}" "${apk_path}" "lib/armeabi-v7a/libwebviewchromium.so" >/dev/null &
 pids+=($!)
-unzip -od "${lib64_dir}" "${apk_path}" "lib/arm64-v8a/libwebviewchromium.so" >/dev/null &
+unzip -ojd "${lib64_dir}" "${apk_path}" "lib/arm64-v8a/libwebviewchromium.so" >/dev/null &
 pids+=($!)
 
 retval=0
