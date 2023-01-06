@@ -4,7 +4,7 @@ Magisk module for Mulch as Android System WebView. (arm64 only)
 [Visit on GitHub](https://link.kescher.at/mulch-webview-arm64-magisk-module-github)
 
 # What is Mulch?
-A Project by DivestOS. See [Our Apops - DivestOS Mobile](https://divestos.org/index.php?page=our_apps#mulch)
+A Project by DivestOS. See [Our Apps - DivestOS Mobile](https://divestos.org/index.php?page=our_apps#mulch)
 
 # Download
 - [Latest release](https://link.kescher.at/mulch-webview-arm64-magisk-module-latest)
