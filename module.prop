@@ -1,7 +1,7 @@
 id=mulch_webview_arm64
 name=Mulch System WebView (arm64)
-version=110.0.5481.65
-versionCode=548106503
+version=109.0.5414.118
+versionCode=541411803
 author=kescher
 description=Installs the Mulch System WebView on your system. arm64 only.
 updateJson=https://link.kescher.at/mulch-webview-arm64-update.json
